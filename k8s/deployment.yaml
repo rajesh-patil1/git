@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx-web:v1
+          image: rajeshpatil1/nginx-demo
           ports:
             - containerPort: 80
           resources:
