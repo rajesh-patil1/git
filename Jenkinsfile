@@ -56,6 +56,7 @@ pipeline {
                 kubectl apply -f k8s/deployment.yaml
                 kubectl apply -f k8s/nodeport.yaml
                 kubectl apply -f k8s/HPA.yaml
+                kubectl apply -f k8s/metrics-server.yaml
                 """
             }
         }
